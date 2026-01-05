@@ -12,8 +12,10 @@ A proposta deste repositório é também reforçar conceitos já estudados, prom
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-## 📁 Projetos Atuais 
-- **Jogo de Adivinhação** — lógica básica, interação com o usuário e manipulação de estados.
-- **Parquímetro** — foco em Programação Orientada a Objetos (POO).
-- **Calculadora de IMC** — uso de condicionais e validações simples.
+
+## 📁 Projetos Atuais
+- [Jogo de Adivinhação](https://github.com/ItsRAYKA/frontend-projects/tree/main/guessing-game) — lógica básica, interação com o usuário e manipulação de estados.
+- [Parquímetro](https://github.com/ItsRAYKA/frontend-projects/tree/main/parking-meter) — foco em Programação Orientada a Objetos (POO).
+- [Calculadora de IMC](https://github.com/ItsRAYKA/frontend-projects/tree/main/imc-calculator) — uso de condicionais e validações simples.
+
 
