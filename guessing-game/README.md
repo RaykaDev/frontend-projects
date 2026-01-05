@@ -1,6 +1,8 @@
 # 🎮 Jogo de Adivinhação
 
-Este é um projeto interativo desenvolvido para treinar manipulação do DOM, funções em JavaScript e estilização com Tailwind CSS. O objetivo é simples: adivinhar um número secreto entre 1 e 100 com até 10 tentativas.
+Este é um projeto interativo desenvolvido para treinar manipulação do DOM, funções em JavaScript e estilização com Tailwind CSS. 
+
+O objetivo é simples: adivinhar um número secreto entre 1 e 100 com até 10 tentativas.
 <br>
 
 ## ✨ Sobre o Jogo
