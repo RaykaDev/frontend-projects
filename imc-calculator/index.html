@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator IMC</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="ico/Pelfusion-Folded-Flat-Calculator.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section class="calculadora">
+      <h1>Calculadora IMC</h1>
+
+      <div class="container">
+
+        <div class="input-row">
+          <input type="number" id="peso" placeholder="Peso" />
+          <label for="peso">Kg</label>
+        </div>
+
+        <div class="input-row">
+          <input type="number" id="altura" placeholder="Altura" />
+          <label for="altura">M</label>
+        </div>
+      </div>
+
+      <button id="btn">Calcular</button>
+      
+      <p>Veja seu índice de Masa Corporal</p>
+
+      <div class="resultado">
+        <p id="resultado"></p>
+        <p id="classIMC"></p>
+      </div>
+    </section>
+  </body>
+
+  <script src="imc.js"></script>
+</html>

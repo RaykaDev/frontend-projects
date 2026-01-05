@@ -1,0 +1,162 @@
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #202020;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================
+   Card da calculadora
+=========================== */
+.calculadora {
+  background: #1b1b1b;
+  padding: 40px;
+  width: 340px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 0, 0.1);
+  text-align: center;
+}
+
+.calculadora h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Linha amarela */
+.calculadora h1::after {
+  content: "";
+  width: 80%;
+  height: 3px;
+  background: #ffd000;
+  display: block;
+  margin: 10px auto 0;
+}
+
+/* ===========================
+   Inputs
+=========================== */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.container label {
+  text-align: left;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Remove scroll dos inputs */
+input[type="number"] {
+  -moz-appearance: textfield; 
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container input {
+  padding: 12px;
+  padding-left: 40px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #2b2b2b;
+  color: #fff;
+  font-size: 15px;
+  position: relative;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.input-row input {
+  flex: 1;
+  padding-left: 45px;
+  background: #2b2b2b;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-row label {
+  color: #ffd000;
+  font-weight: 700;
+  font-size: 16px;
+  width: 35px;
+  text-align: left;
+}
+
+/* Ícones simulados dentro do input */
+.container input#peso {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/833/833453.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.container input#altura {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1827/1827560.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+/* ===========================
+   Botão
+=========================== */
+
+#btn {
+  width: 100%;
+  padding: 12px;
+  background: #ffd000;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn:hover {
+  background: #e6be00;
+}
+
+/* ===========================
+   Mensagens
+=========================== */
+p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.resultado {
+  margin-top: 20px;
+}
+
+.resultado p {
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/Emoji-3d-Joystick-3d.16.png" type="image/x-icon">
+    <title>Jogo de Adivinhação</title>
+</head>
+
+<body class="bg-teal-100 flex justify-center items-center bg-[url('/img/numbers.jpg')] bg-cover h-screen">
+
+    <main class="bg-gradient-to-br from-cyan-400 to-blue-200
+         w-[90%] sm:w-[70%] md:w-[50%] lg:w-[28rem] 
+         h-auto lg:min-h-[550px] 
+         flex flex-col items-center justify-center 
+         p-8
+         shadow-xl shadow-cyan-500/50 rounded-lg text-base sm:text-lg md:text-x">
+
+        <header>
+            <h1 class="text-center text-gray-800 text-3xl p-6" style="font-family: 'Fredoka One', cursive;">
+                <strong>Qual Número Estou Pensando? 👀</strong><br>
+            </h1>
+            <p class="p-5 text-gray-900 leading-7" style="font-family: Poppins " style="font-family: Lato sans-serif;"
+                id="explicação">
+                Pense em um número entre <strong>1 e 100</strong> e tente adivinhar <strong>qual número
+                    escolhi.</strong><br>
+                Digite o seu palpite e veja se consegue acertar!</p>
+        </header>
+
+        <section class="p-5">
+
+            <input class="w-48 bg-white border rounded-sm text-center " id="palpite" type="number" min="1" max="100"
+                placeholder="Digite o seu palpite: ">
+
+            <button class="bg-blue-500 hover:bg-blue-800  text-white w-20 rounded-2xl" id="kickButton">Chutar🤔</button>
+
+            <button class="bg-blue-500 hover:bg-blue-800 text-white w-10 rounded-2xl" id="jogarNovamente"
+                aria-label="Jogar Novamente" onclick="window.location.reload(true)"></button>
+
+            <button class="bg-blue-500 hover:bg-blue-800 hover:cursor-pointer text-white w-10 rounded-2xl"
+                id="reiniciar" aria-label="Reiniciar jogo" onclick="window.location.reload(true)"></button>
+
+        </section>
+
+        <div class="text-gray-900  flex flex-col justify-center" style="font-family: Poppins">
+            <p id="dicas" class="text-center p-5"></p>
+            <p id="tentativas" class="text-center  p-4"></p>
+            <p id="resultado" class="text-center"></p>
+        </div>
+
+    </main>
+    <script src="game.js"></script>
+</body>
+
+</html>''

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Font-family-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <title>Parquímetro</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="titulo">Parquímetro</h1>
+
+      <input type="number" id="recebeValor" placeholder=" Insira um valor:" />
+
+      <button id="botaoCalc">Calcular</button>
+      <button id="limpar">Limpar</button>
+
+      <div id="resposta">
+        <p id="tempo"></p>
+        <p id="troco"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+      <table>
+        <thead>
+          <tr>
+            <th>Valor (R$)</th>
+            <th>Tempo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1,00</td>
+            <td>30 minutos</td>
+          </tr>
+          <tr>
+            <td>1,75</td>
+            <td>60 minutos</td>
+          </tr>
+          <tr>
+            <td>3,00</td>
+            <td>1h20 minutos (máximo)</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>
