@@ -53,3 +53,13 @@ frontend-projects/guessing-game
 ```
 Abra o arquivo `index.html` no seu navegador:
 Você pode clicar duas vezes no arquivo ou usar uma extensão como Live Server no VS Code.
+
+## 📌 Aprendizados
+
+- Manipulação do DOM
+
+- Uso de funções e condicionais
+
+- Organização da lógica do jogo
+
+- Integração de estilos com Tailwind CSS
