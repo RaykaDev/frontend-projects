@@ -7,7 +7,12 @@ O objetivo é simples: adivinhar um número secreto entre 1 e 100 com até 10 te
 
 ## ✨ Sobre o Jogo
 
-Neste jogo, um número aleatório entre 1 e 100 é gerado automaticamente. O jogador digita seu palpite e recebe dicas se o número é **maior**, **menor** ou **correto**. O jogo também controla o número de tentativas restantes e oferece a opção de reiniciar ao final.
+Neste jogo, um número aleatório entre 1 e 100 é gerado automaticamente. O jogador digita seu palpite e recebe dicas se o número é **maior**, **menor** ou **correto**. 
+
+O jogo também:
+- controla o número de tentativas restantes
+- exibe mensagens de feedback
+- permite reiniciar a partida ao final
 
 ![Preview do Jogo](img/preview.png)
 
@@ -39,12 +44,12 @@ O projeto está organizado da seguinte forma:
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/ItsRAYKA/EBAC-Projetos-Exerc-cios.git
+   https://github.com/ItsRAYKA/frontend-projects.git
    ```
  2. **Navegue até a pasta do projeto:**
 
 ```bash
-cd EBAC-Projetos-Exerc-cios/Jogo de Adivinhacao
+frontend-projects/guessing-game
 ```
 Abra o arquivo `index.html` no seu navegador:
 Você pode clicar duas vezes no arquivo ou usar uma extensão como Live Server no VS Code.
