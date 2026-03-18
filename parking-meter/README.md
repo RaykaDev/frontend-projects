@@ -55,12 +55,12 @@ Para visualizar e interagir com o projeto, siga os passos abaixo:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/Raylunaris/EBAC-Projetos-Exerc-cios.git](https://github.com/Raylunaris/EBAC-Projetos-Exerc-cios.git)
+    git clone https://github.com/ItsRAYKA/frontend-projects.git
     ```
-2.  **Naveegue até a Pasta do Projeto:**
-    Após clonar, entre na pasta principal do repositório e, em seguida, na pasta `EBAC-Exercicios` onde o projeto Parquímetro está localizado.
+2.  **Navegue até a Pasta do Projeto:**
+    Após clonar, entre na pasta principal do repositório e, em seguida, na pasta `frontend-projects` onde o projeto Parquímetro está localizado.
     ```bash
-    cd EBAC-Projetos-Exerc-cios/EBAC-Exercicios
+    cd frontend-projects/parking-meter
     ```
 3.  **Abra o `index.html`:**
     Simplesmente abra o arquivo `index.html` no seu navegador web preferido (Chrome, Firefox, Edge, etc.). Você pode fazer isso clicando duas vezes no arquivo ou arrastando-o para a janela do navegador.
