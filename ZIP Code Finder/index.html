@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="titulo">Buscador de CEP</h1>
+      </header>
+
+      <section id="container">
+        <form method="post" autocomplete="on">
+          <fieldset>
+            <legend>Endereço</legend>
+
+            <div class="campo">
+              <label for="cep">CEP</label>
+              <input type="number" id="cep" name="cep" required />
+            </div>
+
+            <div class="campo">
+              <label for="logradouro">Logradouro</label>
+              <input type="text" id="logradouro" name="logradouro" required />
+            </div>
+
+            <div class="campo">
+              <label for="bairro">Bairro</label>
+              <input type="text" id="bairro" name="bairro" required />
+            </div>
+
+            <div class="campo">
+              <label for="cidade">Cidade</label>
+              <input type="text" id="cidade" name="cidade" required />
+            </div>
+
+            <div class="campo">
+              <label for="estado">Estado</label>
+              <input type="text" id="estado" name="estado" required />
+            </div>
+
+            <div class="campo">
+              <label for="numero">Número</label>
+              <input type="number" id="numero" name="numero" required placeholder="Campo opcional"/>
+            </div>
+          </fieldset>
+
+          <div class="acoes">
+            <button type="button" class="btnApagar">Limpar</button>
+            <button type="button" class="btnSalvar">Salvar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

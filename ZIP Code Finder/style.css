@@ -1,0 +1,105 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #0d0d0df1;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CONTAINER PRINCIPAL */
+main {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* TÍTULO */
+header h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* CARD */
+#container {
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* FIELDSET */
+fieldset {
+  border: none;
+}
+
+legend {
+  margin-bottom: 15px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* CAMPOS */
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #0d0d0d;
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #ffffff;
+}
+
+/* BOTÕES */
+.acoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0 2px 0 #000000;
+}
