@@ -1,46 +1,61 @@
-# Projeto: Cadastro de Endereço com CEP
+# 📮 ZIP Code Finder
 
-Este é um pequeno projeto prático desenvolvido como parte dos estudos da linguagem **JavaScript**, com foco nos conceitos de:
+Aplicação que consome a API do ViaCEP para buscar um CEP informado pelo usuário e preencher automaticamente os campos de endereço.
 
-- Consumo de API com `fetch()`
-- Manipulação do DOM
-- Validação de dados
-- Armazenamento local com `localStorage`
+O projeto também utiliza LocalStorage para persistência de dados, permitindo que as informações sejam salvas e recuperadas mesmo após o recarregamento da página, além de incluir validações de entrada e tratamento de erros na requisição.
 
-## 📋 Funcionalidade
 
-O projeto simula um **formulário de cadastro de endereço**, onde o usuário digita o **CEP** e, automaticamente, os demais campos como **logradouro, bairro, cidade e estado** são preenchidos com os dados da API ViaCEP.
+## 🖼️ Preview do Projeto
+<p align="center">
+  <a href="#">
+    <img src="https://github.com/user-attachments/assets/60dd002d-b010-4dab-b650-39c32a80e9b7" width="600">
+  </a>
+</p>
 
-### 🛠️ Recursos:
+---
 
-- Autopreenchimento dos campos de endereço ao digitar o CEP.
-- Validação de CEP inválido ou com menos de 8 dígitos.
-- Exibição de aviso ao usuário em caso de erro.
-- Os dados preenchidos são armazenados no navegador utilizando o `localStorage`, mesmo após atualizar a página.
-- Botão de limpar formulário, caso o usuário deseje.
+## ✨ Funcionalidades
+- 🔎 **Busca de CEP em tempo real** (evento blur)  
+-  **Preenchimento automático de endereço**:  
+    `Logradouro, Bairro, Cidade e Estado`  
+- 💾 **Armazenamento dos dados com LocalStorage**  
+- 🔄 **Recuperação automática dos dados ao recarregar a página**  
+- 🧹 **Limpeza dos dados salvos**  
+- 🔊 **Feedback sonoro ao clicar nos botões**  
+- ✅ **Validação de campos antes de salvar**
 
-## 💻 Tecnologias utilizadas
+---
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- API ViaCEP
+## 🛠️ Tecnologias Utilizadas
 
-## 📁 Estrutura
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)  ![Fetch API](https://img.shields.io/badge/Fetch%20API-000000?logo=javascript&logoColor=white)  ![LocalStorage](https://img.shields.io/badge/LocalStorage-4CAF50?logo=google-chrome&logoColor=white)  ![ViaCEP](https://img.shields.io/badge/ViaCEP-007ACC?logo=azure-devops&logoColor=white)
 
-/cadastro CEP
-├── index.html
-├── style.css
-├── script.js
-├── ico.png
-└── README.md
+---
 
-## 📌 Observações
+## ▶️ Como Rodar o Projeto
 
-- Este projeto **não possui botão de cadastro**, pois o foco é exclusivamente demonstrar a lógica de integração com API e persistência de dados localmente.
+Clone este repositório:
 
-## 🚀 Como executar
-
-1. Clone este repositório:
 ```bash
-git clone https://github.com/Raylunaris/EBAC-Projetos-Exerc-cios
+git clone https://github.com/ItsRAYKA/frontend-projects.git
+```
+
+Navegue até a pasta do projeto:
+
+```bash
+cd frontend-projects/ZIP-Code-Finder
+```
+Abra o arquivo index.html no navegador.
+
+---
+
+## ✒️ Aprendizados
+
+- Manipulação do **DOM**  
+- Eventos (**click**, **blur**, **DOMContentLoaded**)  
+- Consumo de API com **Fetch API**  
+- Tratamento de erros (**catch**)  
+- Validação de dados de entrada  
+- Uso de **LocalStorage**  
+- Conversão de dados com **JSON.stringify** e **JSON.parse**  
+- Organização de lógica em funções  
