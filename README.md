@@ -13,9 +13,10 @@ A proposta deste repositório é também reforçar conceitos já estudados, prom
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 
+
+
 ## 📁 Projetos Atuais
 - [Jogo de Adivinhação](https://github.com/ItsRAYKA/frontend-projects/tree/main/guessing-game) — lógica básica, interação com o usuário e manipulação de estados.
 - [Parquímetro](https://github.com/ItsRAYKA/frontend-projects/tree/main/parking-meter) — foco em Programação Orientada a Objetos (POO).
 - [Calculadora de IMC](https://github.com/ItsRAYKA/frontend-projects/tree/main/imc-calculator) — uso de condicionais e validações simples.
-
-
+- [Zip Code Finder](https://github.com/RaykaDev/frontend-projects/tree/main/ZIP-Code-Finder) — consumo de API (ViaCEP) com Fetch API, manipulação do DOM, validação de formulário e persistência de dados com LocalStorage.
