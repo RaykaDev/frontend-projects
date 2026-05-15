@@ -19,4 +19,5 @@ A proposta deste repositório é também reforçar conceitos já estudados, prom
 - [Jogo de Adivinhação](https://github.com/ItsRAYKA/frontend-projects/tree/main/guessing-game) — lógica básica, interação com o usuário e manipulação de estados.
 - [Parquímetro](https://github.com/ItsRAYKA/frontend-projects/tree/main/parking-meter) — foco em Programação Orientada a Objetos (POO).
 - [Calculadora de IMC](https://github.com/ItsRAYKA/frontend-projects/tree/main/imc-calculator) — uso de condicionais e validações simples.
-- [Zip Code Finder](https://github.com/RaykaDev/frontend-projects/tree/main/ZIP-Code-Finder) — consumo de API (ViaCEP) com Fetch API, manipulação do DOM, validação de formulário e persistência de dados com LocalStorage.
+- [Buscador de CEP](https://github.com/RaykaDev/frontend-projects/tree/main/ZIP-Code-Finder) — consumo de API (ViaCEP) com Fetch API, manipulação do DOM, validação de formulário e persistência de dados com LocalStorage.
+-[Cadastro de Usuários]() - consumo de API REST com Fetch API, requisições GET/POST/DELETE, manipulação dinâmica do DOM e persistência de dados com MockAPI.
