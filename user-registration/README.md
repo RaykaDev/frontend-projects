@@ -1,41 +1,79 @@
-# 🧾Sistema de Cadastro com Fetch API e CrudCrud
+# 👤 User Registration App
 
-Este projeto é uma aplicação web simples que permite ao usuário gerenciar uma lista de clientes — incluindo o cadastro contendo 'nome' e 'e-mail', 
-a visualização e a exclusão de registros. Para isso, utilizamos a [CrudCrud](https://crudcrud.com/), 
-uma API REST gratuita que facilita o armazenamento temporário de dados. 
-As interações com a API são feitas por meio da **Fetch API**, usando os métodos HTTP `GET`, `POST` e `DELETE` para buscar, enviar e remover informações.
+Aplicação web para cadastro e gerenciamento de usuários utilizando consumo de API com Fetch API.
+
+O projeto permite cadastrar usuários com nome e e-mail, listar os dados dinamicamente na tela e remover registros cadastrados.  
+
+Os dados são persistidos utilizando a MockAPI, simulando uma API REST para operações de cadastro, leitura e exclusão de usuários.
+
+---
+
+## 🖼️ Preview do Projeto
 
 
-## 🗂️ Estrutura do Projeto
+<p align="center">
+  <a href="#">
+    <img src="https://github.com/user-attachments/assets/796ab400-c169-476f-a7a0-bf68ac6482e9" width="600">
+  </a>
+</p>
 
-📁 Cadastro de Clientes
+---
 
-├── 📄 index.html  
-├── 📄 style.css  
-├── 📄 script.js  
-└── 📄 README.md
+## ✨ Funcionalidades
 
-## ⚙️ Funcionalidades
+- ➕ Cadastro de usuários  
+- 📥 Envio de dados para API com método `POST`  
+- 📋 Listagem dinâmica de usuários com método `GET`  
+- ❌ Remoção de usuários com método `DELETE`  
+- 🚫 Validação para impedir e-mails duplicados  
+- 🔄 Atualização automática da interface após cadastro ou exclusão  
+- 💾 Persistência de dados utilizando MockAPI  
+- ⚠️ Tratamento de erros com `catch`
 
-- ✅ **Cadastrar Cliente**  
-  O usuário insere nome e e-mail e envia os dados para a API.
+---
 
-- 📋 **Listar Clientes**  
-  Todos os clientes cadastrados são exibidos na tela ao carregar a página.
-
-- ❌ **Excluir Cliente**  
-  Cada cliente listado possui um botão para removê-lo da API.
-  
-## 🔗 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Fetch API](https://img.shields.io/badge/Fetch%20API-Informational?style=for-the-badge&color=4A90E2)
-![CrudCrud](https://img.shields.io/badge/CrudCrud-REST%20API-blueviolet?style=for-the-badge)
+![Fetch API](https://img.shields.io/badge/Fetch%20API-000000?style=for-the-badge&logo=javascript&logoColor=white)
+![MockAPI](https://img.shields.io/badge/MockAPI-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-4CAF50?style=for-the-badge&logo=fastapi&logoColor=white)
 
-## 🚀 Como Executar
+---
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Raylunaris/EBAC-Projetos-Exerc-cios
+## ▶️ Como Rodar o Projeto
+
+Clone este repositório:
+
+```bash
+git clone https://github.com/ItsRAYKA/frontend-projects.git
+```
+Navegue até a paasta do projeto:
+
+```bash
+cd frontend-projects/user-registration-app
+```
+Abra o arquivo `index.html` no navegador.
+
+---
+
+## ✒️ Aprendizados
+
+- Manipulação do DOM
+- Eventos (click, DOMContentLoaded)
+- Consumo de API com Fetch API
+- Métodos HTTP (GET, POST, DELETE)
+- Manipulação de dados com JSON.stringify() e response.json()
+- Validação de dados de entrada
+- Tratamento de erros com catch()
+- Renderização dinâmica de elementos HTML
+- Organização de lógica em funções
+- Persistência de dados com MockAPI
+
+
+
+
+
