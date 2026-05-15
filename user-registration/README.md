@@ -6,9 +6,8 @@ O projeto permite cadastrar usuários com nome e e-mail, listar os dados dinamic
 
 Os dados são persistidos utilizando a MockAPI, simulando uma API REST para operações de cadastro, leitura e exclusão de usuários.
 
----
 
-## 🖼️ Preview do Projeto
+## 🖼️ Preview 
 
 
 <p align="center">
@@ -17,7 +16,6 @@ Os dados são persistidos utilizando a MockAPI, simulando uma API REST para oper
   </a>
 </p>
 
----
 
 ## ✨ Funcionalidades
 
@@ -29,8 +27,7 @@ Os dados são persistidos utilizando a MockAPI, simulando uma API REST para oper
 - 🔄 Atualização automática da interface após cadastro ou exclusão  
 - 💾 Persistência de dados utilizando MockAPI  
 - ⚠️ Tratamento de erros com `catch`
-
----
+  
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -43,6 +40,7 @@ Os dados são persistidos utilizando a MockAPI, simulando uma API REST para oper
 ![REST API](https://img.shields.io/badge/REST%20API-4CAF50?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ---
+
 
 ## ▶️ Como Rodar o Projeto
 
