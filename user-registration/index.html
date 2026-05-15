@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--fontes-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/747/747376.png"
+      type="image/png"
+    />
+
+    <title>Cadastro de Usuários</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="titulo">Cadastro</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="entradas">
+        <form id="formulario">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="nome"
+            placeholder="Digite o seu nome:"
+            required
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Digite seu e-mail:"
+            required
+          />
+
+          <button class="btnAdd" type="submit">Adicionar</button>
+
+        </form>
+      </div>
+
+      <div class="lista">
+        <ul class="cadastros">
+          <!--onde serão adicionados os cadastros já feitos-->
+        </ul>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
