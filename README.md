@@ -12,12 +12,14 @@ A proposta deste repositório é também reforçar conceitos já estudados, prom
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-
-
+<br>
 
 ## 📁 Projetos Atuais
-- [Jogo de Adivinhação](https://github.com/ItsRAYKA/frontend-projects/tree/main/guessing-game) — lógica básica, interação com o usuário e manipulação de estados.
-- [Parquímetro](https://github.com/ItsRAYKA/frontend-projects/tree/main/parking-meter) — foco em Programação Orientada a Objetos (POO).
-- [Calculadora de IMC](https://github.com/ItsRAYKA/frontend-projects/tree/main/imc-calculator) — uso de condicionais e validações simples.
-- [Buscador de CEP](https://github.com/RaykaDev/frontend-projects/tree/main/ZIP-Code-Finder) — consumo de API (ViaCEP) com Fetch API, manipulação do DOM, validação de formulário e persistência de dados com LocalStorage.
-- [Cadastro de Usuários](https://github.com/RaykaDev/frontend-projects/tree/main/user-registration) - consumo de API REST com Fetch API, requisições GET/POST/DELETE, manipulação dinâmica do DOM e persistência de dados com MockAPI.
+
+| Projeto | Descrição |
+|---|---|
+| 🎮 [Jogo de Adivinhação](https://github.com/ItsRAYKA/frontend-projects/tree/main/guessing-game) | lógica básica, interação com o usuário e manipulação de estados. |
+| 🅿️ [Parquímetro](https://github.com/ItsRAYKA/frontend-projects/tree/main/parking-meter) | foco em Programação Orientada a Objetos (POO). |
+| 🧮 [Calculadora de IMC](https://github.com/ItsRAYKA/frontend-projects/tree/main/imc-calculator) | uso de condicionais e validações simples. |
+| 🗺️ [Buscador de CEP](https://github.com/RaykaDev/frontend-projects/tree/main/ZIP-Code-Finder) | consumo de API (ViaCEP) com Fetch API, manipulação do DOM, validação de formulário e persistência de dados com LocalStorage. |
+| 👤 [Cadastro de Usuários](https://github.com/RaykaDev/frontend-projects/tree/main/user-registration) | consumo de API REST com Fetch API, requisições GET/POST/DELETE, manipulação dinâmica do DOM e persistência de dados com MockAPI. |
